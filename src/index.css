@@ -1,0 +1,40 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px "宋体","Arial Narrow",HELVETICA;background:#fff;}
+a{color:#172c45;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word;font-size: 16px;padding: 10px 0;}
+.ind{text-indent:2em}
+.ind10{text-indent:10px;}
+.noborder{border:0;}
+
+body,html{
+  width: 100%;
+  height: 100%;
+}
+
+.sidebars{
+  width: 200px;
+  font-size: 16px;
+  background-color: rgb(136, 109, 209);
+  /* height: -webkit-fill-available; */
+  text-align: center;
+}
+.sidebars li{
+  padding: 5px 0;
+}
+
+.contstyle{
+  flex:1;
+  background-color:#cecece;
+  height: 100vh;
+  overflow:auto;
+}
